@@ -7,7 +7,7 @@ gem 'rails', '4.1.1'
 group :development, :test do
  gem 'sqlite3'
 end
-group production do
+group :production do
  gem 'pg'
 end
 # Use SCSS for stylesheets
