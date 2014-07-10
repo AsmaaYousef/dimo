@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
-  get 'home_page/home'
+  get 'home_page/home' => "home_page#home"
 
-  get 'home_page/about'
+  get 'home_page/about'=> "home_page#about"
+  get 'home_page/location' => "home_page#location"
+
+  get 'home_page/contact'=> "home_page#contact"
 
   resources :books
 

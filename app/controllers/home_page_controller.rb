@@ -4,4 +4,8 @@ class HomePageController < ApplicationController
 
   def about
   end
+  def location
+  end
+  def contact
+  end
 end
